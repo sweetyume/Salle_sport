@@ -1,4 +1,47 @@
-.nav {
+body {
+  font-family: "Lato";
+}
+
+#menu .navbar-brand {
   height: 100px;
-  width: auto;
+}
+
+#menu .nav >li >a {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#menu .navbar-toggle {
+  padding: 20px;
+  margin: 25px 15px 25px 0;
+}
+#main-image {
+  background: url(img/header.jpg) center;
+
+  height: auto;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+height: 100vh;
+}
+
+#blog {
+  margin: 80px 0;
+}
+
+#blog h4 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #ece30b;
+}
+
+#blog p {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#blog img {
+  display: flex;
+  height: auto;
+  width: 100%;
 }
